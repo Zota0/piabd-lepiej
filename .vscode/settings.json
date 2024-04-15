@@ -1,0 +1,8 @@
+{
+    "Codegeex.Chat.LanguagePreference": "English",
+    "Codegeex.Comment.LanguagePreference": "English",
+    "Codegeex.SidebarUI.LanguagePreference": "English",
+    "Codegeex.CompletionModel": "CodeGeeX Lite",
+    "Codegeex.UseSimilarFileForPrompt": true,
+    "Codegeex.Privacy": true
+}
