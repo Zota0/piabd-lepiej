@@ -1,4 +1,2 @@
-CREATE IF NOT EXISTS USER 'dev'@'localhost' IDENTIFIED BY 'dev';
+CREATE USER 'dev'@'localhost' IDENTIFIED BY 'dev';
 GRANT SELECT, INSERT INTO ON *.* TO 'dev'@'localhost';
-
-FLUSH PRIVILEGES;
