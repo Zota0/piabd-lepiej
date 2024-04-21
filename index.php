@@ -139,7 +139,7 @@
                     <label class='needed-label' for="LogInUsername" aria-readonly='true' readonly>
                         <span id='login_username-check'>nie może być puste</span>
                     </label>
-                    <input type="password" name="LogInPassword" placeholder="Wpisz hasło" required>
+                    <input type="password" name="LogInPassword" placeholder="Wpisz hasło">
                     <button id='login-btn' type="submit">Zaloguj</button>
                     <script src="LogInCheck.js"></script>
                 </form>

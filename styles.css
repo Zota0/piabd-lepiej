@@ -219,7 +219,7 @@ input[type='checkbox'] {
     width: 1em;
     overflow: hidden;
     aspect-ratio: 1/1;
-    z-index: 2;
+    z-index: 1;
     position: relative;
     left: 35%;
 }
