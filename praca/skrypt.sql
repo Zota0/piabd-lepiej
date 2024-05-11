@@ -12,7 +12,7 @@ CREATE TABLE `account` (
   `email` varchar(255) NOT NULL,
   `phone` int(9) NOT NULL,
   `birthdate` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) /*  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci; */
 
 INSERT INTO `account` (`id`, `username`, `password`, `email`, `phone`, `birthdate`) VALUES
 (14, 'Developer', '$2y$10$MEdlgXmWTgeDDeQg3reXzeL2.S8f8QI56VPa4y29PkpomPdMbK1PO', 'zota0-dev@gmail.com', 697178618, '2009-08-20'),
@@ -23,7 +23,7 @@ CREATE TABLE `comments` (
   `CREATIONDATE` datetime NOT NULL DEFAULT current_timestamp(),
   `CONTENT` text NOT NULL,
   `DISPLAYNAME` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+) /*  ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci; */
 
 INSERT INTO `comments` (`ID`, `CREATIONDATE`, `CONTENT`, `DISPLAYNAME`) VALUES
 (162, '2024-04-17 20:13:21', '<b> Pogrubiony </b>', 'Developer'),

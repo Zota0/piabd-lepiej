@@ -2,7 +2,7 @@
 
 <?php
     $config = parse_ini_file(__DIR__.'/config.cfg');
-    $mysqli = new mysqli($config['host'], $config['username'], $config['password'], $config['database']);
+    $mysqli = new mysqli($config['host'], $config['username'], $config['password'], $config['database'], $config['port']);
 
 
     if ($mysqli->connect_error) {

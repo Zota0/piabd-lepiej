@@ -130,9 +130,8 @@ SignUpForm.addEventListener('click', (signup_event) => {
     }
 
     if (!BirthListener) {
-        $(birthdate).on('change', function() {
+        birthdate_input.addEventListener('input', (event) => {
             const isEmpty = CheckifEmpty(this);
-
             if (isEmpty) {
                 birth_check.innerHTML = `<span style="color:red;background:gainsboro;border-radius:50px;font-weight:800;padding:2px">Wprowadź datę urodzenia!</span>`;
                 BadBirthday = true;
@@ -150,7 +149,7 @@ SignUpForm.addEventListener('click', (signup_event) => {
         BadPassword = BadPassword ;
     }
 
-    username_input.addEventListener('change', (event) => {
+    username_input.addEventListener('input', (event) => {
         var username = event.target.value;
 
         const xhr = new XMLHttpRequest();

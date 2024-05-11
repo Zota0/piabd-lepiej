@@ -1,0 +1,3 @@
+CREATE USER 'dev'@'%' IDENTIFIED BY 'HasloDoKontaDevelopera';
+GRANT ALL PRIVILEGES ON piabd2.* TO 'dev'@'%';
+FLUSH PRIVILEGES;

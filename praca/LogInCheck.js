@@ -9,7 +9,7 @@ log_username_check.innerHTML = '';
 var UsernameExists = false;
 
 LogInform.addEventListener("input", function(login_event) {
-    log_username_input.addEventListener('change', (event) => {
+    log_username_input.addEventListener('input', (event) => {
         var log_username = event.target.value;
 
         const xhr = new XMLHttpRequest();
