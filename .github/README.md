@@ -11,4 +11,10 @@ w PODANEJ KOLEJNOŚĆI(inaczej może wystąpić błąd):
 Należy również zobaczyć, czy `port` w `config.cfg` jest poprawnym numerem, tzn. zgodnym z wartością drugiego od góry portu podanego w programie `XAMPP` - portu obok `MySql`(domyślnie powinno być 3306, o ile plik `my.ini` programu `XAMPP` nie był modyfikowany).
 
 Praca była testowana na przeglądarce `Chrome` - (wersja: 124.0.6367.201).
+Praca wykorzystuje:
+1. `PHP` - do połączenia z bazą danych oraz wyświetlaniem treści na stronie.
+2. `HTML` - umieszczony w plikach `PHP` - tworzy strukturę strony.
+2. `JavaScript` - do walidacji danych wprowadzonych.
+3. `CSS` - do stylizowania strony. 
+
 Praca została wykonana przez Bartosza Zakrzewskiego z 1TPB. 
